@@ -7,7 +7,7 @@ import {
 const initialState = {
   loading: false,
   users: [],
-  error: "",
+  error: null,
 };
 
 const reducer = (state = initialState, action) => {
